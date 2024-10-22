@@ -14,7 +14,7 @@ export default function App() {
         setLista(dados);
     }
     catch (error){
-        alert("A conexão com a API falhou!");
+        alert("A conexão com a API esta errada!");
     }
 }
     
