@@ -1,10 +1,14 @@
+import Litar from "./Lista"
 export default function Lista({produtos}){
+  if(produtos.length == 0) {
+    return(   
+      <div  className="come">
+      <Litar/>
+      </div>
+    )
+  }
 return (
     <div className="tudo">
-      <div className="header">
-      <h1 className="titu">Lista de Produtos</h1>
-      </div>
-      <div className="produtos">
         <div className="prod">
       <ul className="prot">
         {
@@ -16,11 +20,10 @@ return (
             <p>{produto.description}</p>
             <p>Preço: ${produto.price}</p>
           </li>
-          </div>
+          </div>  
         ))}
       </ul>
       </div>
       </div>
-    </div>
   )
 }

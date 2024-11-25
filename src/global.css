@@ -1,6 +1,5 @@
      body{
-        background-color: rgb(245, 158, 219);
-        margin: -1.8%;
+        background-color: rgb(227, 167, 62);
         padding: 0%;
      }
      .titu{
@@ -46,4 +45,37 @@
     }
     .name{  
         width: 100%;
+    }
+    .come{
+        margin-top: 15%;
+        text-align: center;
+    }
+    .imagems{
+        width: 10px;
+    }
+    .todosbotao{
+        display: flex;
+        justify-content: center;
+    }
+    .botao{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .click{
+        color: white;
+        width: 150px;
+        border-radius: 40%;
+        background-color: black;
+        padding: 10px;
+    }
+    .pesquisas{
+        border: 5px;
+        border-color: black;
+        background-color: wheat;
+        margin-top: 15px;
+        font-size: 13px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        width: 300px;
+        height: 20px;
     }
