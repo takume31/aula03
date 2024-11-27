@@ -38,7 +38,7 @@ export default function App() {
 
   const pesquisarItem = (valor) => {
     const listaAux = lista.filter((item) =>
-      item.title.toLowerCase().includes(valor.toLowerCase())
+      item.title.toLowerCase().includes(valor.toLowerCase())                                                                                                                                                                                                                                                                                                                                                
     );
     setListaSalva(listaAux);
   };
@@ -59,7 +59,7 @@ export default function App() {
 
       <input className="pesquisas" placeholder="Pesquisar" onChange={(item) => pesquisarItem(item.target.value)}/>
 
-      <Teste produtos={listaSalva} />
+      <Teste produtos={listaSalva}/>
     </div>
   );
 }
